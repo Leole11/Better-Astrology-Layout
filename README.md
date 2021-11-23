@@ -1,8 +1,8 @@
 # Better Astrology Layout
- Make the layout for Melvor's Astrology skill less confusing by grouping together bonuses of similar rarity
+ Make the Melvor's Astrology layout less confusing by grouping together bonuses of similar rarity and highlighting rare rolls
 
-## Before
+### Before
 ![Before](/assets/images/before.png)
 
-## After
+### After
 ![After](/assets/images/after.png)
