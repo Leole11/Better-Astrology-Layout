@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Better Astrology Layout
 // @namespace    ididthisonawhimLeole
-// @version      1.1
+// @version      1.2
 // @description  Make the Melvor's Astrology layout less confusing by grouping together bonuses of similar rarity and highlighting rare rolls
 // @author       Leole
 // @match        https://melvoridle.com/*
@@ -23,7 +23,7 @@
                 var modSpan = mod.getElementsByTagName("span")[0]
                 if (typeof modSpan !== 'undefined'){
                     var modText = modSpan.textContent
-                    var modContainer = mod.children[0].children[1].children[0]
+                    var modContainer = mod.children[0].children[0].children[0]
                     if(modText.includes("4")){
                         modContainer.setAttribute("style", "border: 2px #85C1E9 solid !important;")
                     } else if (modText.includes("5")){
